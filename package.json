@@ -1,0 +1,35 @@
+{
+  "name": "sprintf-ext-strftime",
+  "description": "Date/time formatting extension for sprintf-js (via strftime)",
+  "version": "0.0.1",
+  "homepage": "https://github.com/litmit/sprintf-ext-strftime",
+  "author": {
+    "name": "Dzmitry Litskalau",
+    "email": "litmit@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/litmit/sprintf-ext-strftime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litmit/sprintf-ext-strftime/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "sprintf",
+    "extension",
+    "format",
+    "strftime",
+    "date",
+    "time"
+  ],
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "sprintf-js": "git+https://github.com/litmit/sprintf.js.git#expandable",
+    "strftime": "^0.10.0"
+  }
+}
