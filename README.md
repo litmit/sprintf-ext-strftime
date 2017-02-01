@@ -35,7 +35,7 @@ Now you can code:
 ```js
 var sprintf = require("sprintf-js").sprintf;
 var strftime = require("strftime");
-var ssprintf_ext_strftime = require("sprintf-ext-strftime");
+var sprintf_ext_strftime = require("sprintf-ext-strftime");
 sprintf_ext_strftime.bind(sprintf,strftime); // binded to 'D' type specifier by default
 
 var printf = function() { var o = sprintf.apply(sprintf, arguments); console.log(o); return o.length; };
